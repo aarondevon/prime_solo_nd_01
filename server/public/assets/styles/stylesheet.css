@@ -1,0 +1,117 @@
+/**********
+General
+**********/
+
+body {
+    background-image:url(../img/texturegray.jpg);
+    opacity:30%}
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/**********
+Heading
+**********/
+
+.name {
+    color: #3B91D4;
+    text-align:center;
+    font-size:22px;
+    font-family: 'Lato' , sans-serif;
+}
+
+.contact {
+    text-align:center;
+    font-size:20px;
+}
+.contact hr{
+    height: 2px;
+    color: #000;
+    background-color: #000;
+
+}
+
+/**********
+Intro
+**********/
+.intro {
+    font-size:18px;
+    margin: 0px 150px 0px 150px;
+}
+/**********
+Body
+**********/
+hr {
+    margin: 0px 150px 10px 150px;
+    padding: 0px;
+}
+h3 {
+    margin: 0px 150px 0px 150px;
+    padding: 0px;
+}
+
+.value_offered h3 {
+    color: #3B91D4;
+    font-size:19px;
+    margin: 0px 150px 0px 150px;
+
+}
+.value_offered hr{
+    height: 1px;
+    color: #000;
+    background-color: #000;
+}
+
+ul {
+    margin: 0px 150px 10px 150px;
+}
+
+.professional h3 {
+    color: #3B91D4;
+    font-size:19px;
+}
+
+.professional hr{
+    height: 1px;
+    color: #000;
+    background-color: #000;
+}
+
+.alignl{
+    float:left;
+}
+.alignr {
+    float:right;
+}
+
+
+
+.education h3 {
+    color: #3B91D4;
+    font-size:19px;
+}
+
+.education hr {
+    height: 1px;
+    color: #000;
+    background-color: #000;
+}
+
+.margin {
+    margin: 0px 150px 10px 150px;
+}
+
+
+
+.awards h3 {
+    color: #3B91D4;
+    font-size:19px;
+}
+
+.awards hr {
+    height: 1px;
+    color: #000;
+    background-color: #000;
+}
