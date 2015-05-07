@@ -12,6 +12,7 @@
   "dependencies": {
     "bootstrap": "^3.3.4",
     "express": "^4.12.3",
+    "grunt": "^0.4.5",
     "jquery": "^2.1.4",
     "path": "^0.11.14"
   }
