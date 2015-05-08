@@ -5,12 +5,12 @@
 
 ###Layout
 #### The following layout will be used in the clients webpage and will be filled with the relative information provided by the client.
-*Header will be the clients name.
-*Sub Header will be the clients contact information.
-*Value offered
-*Professional Experience
-*Education
-*Awards and Certifications
+* Header will be the clients name.
+* Sub Header will be the clients contact information.
+* Value offered
+* Professional Experience
+* Education
+* Awards and Certifications
 
 ###Content
 ####Provided by client. Any additional changes from original content provided will result in a new scope of work.
