@@ -38,24 +38,20 @@ Intro
 **********/
 .intro {
     font-size:18px;
-    margin: 0px 150px 0px 150px;
 }
 /**********
 Body
 **********/
 hr {
-    margin: 0px 150px 10px 150px;
-    padding: 0px;
 }
 h3 {
-    margin: 0px 150px 0px 150px;
-    padding: 0px;
+
 }
 
 .value_offered h3 {
     color: #3B91D4;
     font-size:19px;
-    margin: 0px 150px 0px 150px;
+
 
 }
 .value_offered hr{
@@ -65,7 +61,7 @@ h3 {
 }
 
 ul {
-    margin: 0px 150px 10px 150px;
+
 }
 
 .professional h3 {
@@ -99,12 +95,6 @@ ul {
     background-color: #000;
 }
 
-.margin {
-    margin: 0px 150px 10px 150px;
-}
-
-
-
 .awards h3 {
     color: #3B91D4;
     font-size:19px;
@@ -114,4 +104,7 @@ ul {
     height: 1px;
     color: #000;
     background-color: #000;
+}
+.bigger {
+    font-size: 20px;
 }
