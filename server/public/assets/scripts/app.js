@@ -1,5 +1,8 @@
+
 var addressInfo;
 var street, city, state, zip;
+
+
 $( document ).ready(function() {
     $.ajax({
         method : "GET",
@@ -9,18 +12,25 @@ $( document ).ready(function() {
         }
     });
 
-    $.get('/data.json', function (data) {
+    $.get('/assets/data/data.json', function (data) {
         console.log(".get data function is running");
         addressInfo = data;
+        addAddress(addressInfo);
 
         });
-    console.log(addressInfo);
-    street = addressInfo.address.street;
-    city =  addressInfo.address.city;
-    state = addressInfo.address.stateMN;
-    zip = addressInfo.address.zip;
-    console.log(street, city, state, zip);
-    $(".compAdd").appened("<div>street +  city + "," </div>");
+
+    function addAddress(data) {
+        street = addressInfo.address.street;
+        city = addressInfo.address.city;
+        state = addressInfo.address.stateMN;
+        zip = addressInfo.address.zip;
+
+        $(".footer").append("<div>" +street + " " + city + ", " + state + " " + zip+ "</div>");
+        console.log("writting addy");
+        console.log(street, city, state, zip);
+    }
+
+
 
 
     $('.luce-info').append('<ul class="col-md-12 right"><li>Responsible for delivery of food, accurate order taking, and friendly customer service.</li></ul>');
